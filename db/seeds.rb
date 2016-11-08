@@ -1,8 +1,10 @@
-User.create(provider: "developer", uid: "jess@example.com", email: "jess@example.com", username: "Jess", full_name: "Jess")
-User.create(provider: "developer", uid: "alysia@example.com", email: "alysia@example.com", username: "Alysia", full_name: "Alysia")
-User.create(provider: "developer", uid: "deirdre@example.com", email: "deirdre@example.com", username: "Deirdre", full_name: "Deirdre")
-User.create(provider: "developer", uid: "llama@example.com", email: "llama@example.com", username: "Llama", full_name: "Llama")
-User.create(provider: "developer", uid: "puppy.party@example.com", email: "puppy.party@example.com", username: "Puppy Party", full_name: "Puppy Party")
+User.create(provider: "developer", uid: "jess@example.com", email: "jess@example.com", username: "Jess", full_name: "Jess", zip: "12345")
+User.create(provider: "developer", uid: "alysia@example.com", email: "alysia@example.com", username: "Alysia", full_name: "Alysia", zip: "33177")
+User.create(provider: "developer", uid: "deirdre@example.com", email: "deirdre@example.com", username: "Deirdre", full_name: "Deirdre", zip: "12345")
+User.create(provider: "developer", uid: "llama@example.com", email: "llama@example.com", username: "Llama", full_name: "Llama", zip: "98122")
+User.create(provider: "developer", uid: "puppy.party@example.com", email: "puppy.party@example.com", username: "Puppy Party", full_name: "Puppy Party", zip: "10101")
+User.create(provider: "github", uid: "17539781", email: "mcortes.umiami@gmail.com", username: "miriam-cortes",  full_name: "Miriam", zip: "98122")
+
 
 Product.create(name: 'Hot Dog', quantity: 5, description: "Hot diggity dog. Mustard too!", price: 15,
 photo_url: "http://ecx.images-amazon.com/images/I/41qN0y-0FFL._SY300_.jpg", user_id: 2, animal: 'Dog', category: "Food", weight: 1.5)
